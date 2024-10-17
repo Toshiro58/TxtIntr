@@ -1,8 +1,8 @@
 .PHONY: all debug release clean
 
 Compiler = g++
-RELEASE_FLAGS = -O2 -Wall -DNDEBUG -Iheaders
-DEBUG_FLAGS   = -g -O0 -Wall -Iheaders
+RELEASE_FLAGS = -O2 -Wall -DNDEBUG 
+DEBUG_FLAGS   = -g -O0 -Wall 
 RELEASE_EXEC  = Calculator
 DEBUG_EXEC    = Calculator-dbg
 SOURCES       = main.cpp shapes.cpp
